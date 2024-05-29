@@ -10,7 +10,7 @@ body {
 
 /*HEADER*/
 div#header {
-	background: url(../img/header-bg.jpg) repeat-x;
+	background: url(./img/header-bg.jpg) repeat-x;
 }
 div#logo {
 	width: 960px;
