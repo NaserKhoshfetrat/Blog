@@ -1,0 +1,245 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+    <title>Code Chronicles</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="description" content="Free software development tutorials">
+    <meta name="keywords" content="C#, .Net, JavaScript">
+    <meta name="author" content="Naser khoshfetrat">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/stylesheet.css" type="text/css" />
+</head>
+
+<body>
+    <!--HEADER-->
+    <div class="header id=" header">
+        <div id="logo">
+            <h1><a href="#">Code Chronicles</a></h1>
+        </div>
+        <div id="nav-bar">
+            <ul id="nav1">
+                <li><a href="../index.html">Home</a></li>
+            </ul>
+            <div id="nav2">
+            </div>
+        </div>
+    </div>
+    <!--HEADER END-->
+    <!--CONTENT-->
+    <div id="content">
+        <!--MAIN-CONTENT-->
+        <div id="main-content">
+            <!--CONTENT 1 END-->
+            <div class="content" id="content-1">
+                <div class="featured wrapper">
+                    <h2>Git Commands Cheat Sheet</h2>
+                    <p>Mastering Git: Essential Commands for Version Control
+                        Git, the powerful version control system, is an essential tool for developers. Whether you're
+                        managing a solo project or collaborating with a team, understanding key Git commands can
+                        streamline your workflow and enhance your productivity. This guide covers the most crucial Git
+                        commands every developer should know.
+                    </p>
+                    </br>
+                    <div class="command-section">
+                        <h3>Basic Commands</h3>
+                        <div class="wrapper"></br>
+                            <h5>1. <code>git init</code></h5>
+                            <p><strong>Description:</strong> Initializes a new Git repository in your current directory.
+                            </p>
+                            <p><strong>Example:</strong> <code>git init myrepo</code></p>
+                            <p><a href="https://git-scm.com/docs/git-init">Git-scm.com doc</a></p>
+                        </div>
+                        <div class="wrapper"></br>
+                            <h5>2. <code>git add &lt;file&gt;</code></h5>
+                            <p><strong>Description:</strong> Stages a file for the next commit.</p>
+                            <p><strong>Example:</strong> <code>git add myfile.txt</code></p>
+                            <p><a href="https://git-scm.com/docs/git-add">Git-scm.com doc</a></p>
+                        </div>
+                        <div class="wrapper"></br>
+                            <h5>3. <code>git add .</code></h5>
+                            <p><strong>Description:</strong> Stages all changes in the current directory and its
+                                subdirectories.</p>
+                            <p><strong>Example:</strong> <code>git add .</code></p>
+                            <p><a href="https://git-scm.com/docs/git-add">Git-scm.com doc</a></p>
+                        </div>
+                        <div class="wrapper"></br>
+                            <h5>4. <code>git commit -m "&lt;message&gt;"</code></h5>
+                            <p><strong>Description:</strong> Commits staged changes with a meaningful message.</p>
+                            <p><strong>Example:</strong> <code>git commit -m "Added new feature"</code></p>
+                            <p><a href="https://git-scm.com/docs/git-commit">Git-scm.com doc</a></p>
+
+                        </div>
+                        <div class="wrapper"></br>
+                            <h5>5. <code>git log</code></h5>
+                            <p><strong>Description:</strong> Displays a log of all commits made in the repository.</p>
+                            <p><strong>Example:</strong> <code>git log</code></p>
+                            <p><a href="https://git-scm.com/docs/git-log">Git-scm.com doc</a></p>
+                            </br>
+                        </div>
+                    </div>
+                    </br>
+                    <div class="command-section">
+                        <h3>Branching and Merging</h3>
+                        <div class="wrapper"></br>
+                            <h5>1. <code>git branch &lt;branch-name&gt;</code></h5>
+                            <p><strong>Description:</strong> Creates a new branch with the specified name.</p>
+                            <p><strong>Example:</strong> <code>git branch feature/new-feature</code></p>
+                            <p><a href="https://git-scm.com/docs/git-branch">Git-scm.com doc</a></p>
+                        </div>
+                        <div class="wrapper"></br>
+                            <h5>2. <code>git checkout &lt;branch-name&gt;</code></h5>
+                            <p><strong>Description:</strong> Switches to a different branch.</p>
+                            <p><strong>Example:</strong> <code>git checkout feature/new-feature</code></p>
+                            <p><a href="https://git-scm.com/docs/git-checkout">Git-scm.com doc</a></p>
+                        </div>
+                        <div class="wrapper"></br>
+                            <h5>3. <code>git merge &lt;branch-name&gt;</code></h5>
+                            <p><strong>Description:</strong> Merges changes from another branch into the current branch.
+                            </p>
+                            <p><strong>Example:</strong> <code>git merge feature/new-feature</code></p>
+                            <p><a href="https://git-scm.com/docs/git-merge">Git-scm.com doc</a></p>
+                        </div>
+                        <div class="wrapper"></br>
+                            <h5>4. <code>git rebase &lt;branch-name&gt;</code></h5>
+                            <p><strong>Description:</strong> Rebases local changes on top of the specified branch,
+                                rewriting commit history.</p>
+                            <p><strong>Example:</strong> <code>git rebase feature/new-feature</code></p>
+                            <p><a href="https://git-scm.com/docs/git-rebase">Git-scm.com doc</a></p>
+                        </div>
+                    </div>
+                    </br>
+                    <div class="command-section">
+                        <h3>Version Control and History</h3>
+                        <div class="wrapper"></br>
+                            <h5>1. <code>git status</code></h5>
+                            <p><strong>Description:</strong> Displays the status of the repository, including unstaged
+                                changes and uncommitted changes.</p>
+                            <p><strong>Example:</strong> <code>git status</code></p>
+                            <p><a href="https://git-scm.com/docs/git-status">Git-scm.com doc</a></p>
+                        </div>
+                        <div class="wrapper"></br>
+                            <h5>2. <code>git diff</code></h5>
+                            <p><strong>Description:</strong> Displays the differences between the current version and
+                                the previous version of a file.</p>
+                            <p><strong>Example:</strong> <code>git diff myfile.txt</code></p>
+                            <p><a href="https://git-scm.com/docs/git-diff">Git-scm.com doc</a></p>
+                        </div>
+                        <div class="wrapper"></br>
+                            <h5>3. <code>git reset &lt;commit-hash&gt;</code></h5>
+                            <p><strong>Description:</strong> Resets the branch to a specific commit, discarding all
+                                changes made after that commit.</p>
+                            <p><strong>Example:</strong> <code>git reset HEAD~1</code></p>
+                            <p><a href="https://git-scm.com/docs/git-reset">Git-scm.com doc</a></p>
+                        </div>
+                        <div class="wrapper"></br>
+                            <h5>4. <code>git revert &lt;commit-hash&gt;</code></h5>
+                            <p><strong>Description:</strong> Reverses the changes made in a specific commit, creating a
+                                new commit with opposite changes.</p>
+                            <p><strong>Example:</strong> <code>git revert HEAD~1</code></p>
+                            <p><a href="https://git-scm.com/docs/git-revert">Git-scm.com doc</a></p>
+                        </div>
+                    </div>
+                    </br>
+                    <div class="command-section">
+                        <h3>Configuring Git</h3>
+                        <div class="wrapper"></br>
+                            <h5>1. <code>git config --global user.name "&lt;name&gt;"</code></h5>
+                            <p><strong>Description:</strong> Sets the global user name for Git commits.</p>
+                            <p><strong>Example:</strong> <code>git config --global user.name "John Doe"</code></p>
+                            <p><a href="https://git-scm.com/docs/git-config">Git-scm.com doc</a></p>
+                        </div>
+                        <div class="wrapper"></br>
+                            <h5>2. <code>git config --global user.email "&lt;email&gt;"</code></h5>
+                            <p><strong>Description:</strong> Sets the global user email for Git commits.</p>
+                            <p><strong>Example:</strong>
+                                <code>git config --global user.email "john.doe@example.com"</code></p>
+                            <p><a href="https://git-scm.com/docs/git-config">Git-scm.com doc</a></p>
+                        </div>
+                    </div>
+                    </br>
+                    <div class="command-section">
+                        <h3>Remote Repositories</h3>
+                        <div class="wrapper"></br>
+                            <h5>1. <code>git remote add &lt;name&gt; &lt;url&gt;</code></h5>
+                            <p><strong>Description:</strong> Adds a remote repository to your local repository.</p>
+                            <p><strong>Example:</strong>
+                                <code>git remote add origin https://github.com/user/repo.git</code></p>
+                            <p><a href="https://git-scm.com/docs/git-remote">Git-scm.com doc</a></p>
+                        </div>
+                        <div class="wrapper"></br>
+                            <h5>2. <code>git fetch &lt;remote-name&gt;</code></h5>
+                            <p><strong>Description:</strong> Retrieves data from a remote repository, without merging
+                                changes.</p>
+                            <p><strong>Example:</strong> <code>git fetch origin</code></p>
+                            <p><a href="https://git-scm.com/docs/git-fetch">Git-scm.com doc</a></p>
+                        </div>
+                        <div class="wrapper"></br>
+                            <h5>3. <code>git push &lt;remote-name&gt; &lt;branch-name&gt;</code></h5>
+                            <p><strong>Description:</strong> Pushes local changes to a remote repository.</p>
+                            <p><strong>Example:</strong> <code>git push origin master</code></p>
+                            <p><a href="https://git-scm.com/docs/git-push">Git-scm.com doc</a></p>
+                        </div>
+                        <div class="wrapper"></br>
+                            <h5>4. <code>git pull &lt;remote-name&gt; &lt;branch-name&gt;</code></h5>
+                            <p><strong>Description:</strong> Fetches and merges changes from a remote repository.</p>
+                            <p><strong>Example:</strong> <code>git pull origin master</code></p>
+                            <p><a href="https://git-scm.com/docs/git-pull">Git-scm.com doc</a></p>
+                        </div>
+                    </div>
+
+                    </br>
+                    <div class="command-section">
+                        <h3>Troubleshooting</h3>
+                        <div class="wrapper"></br>
+                            <h5>1. <code>git reset --hard</code></h5>
+                            <p><strong>Description:</strong> Resets the branch to the last commit, discarding all local
+                                changes.</p>
+                            <p><strong>Example:</strong> <code>git reset --hard</code></p>
+                            <p><a href="https://git-scm.com/docs/git-reset">Git-scm.com doc</a></p>
+                        </div>
+                        <div class="wrapper"></br>
+                            <h5>2. <code>git clean -fd</code></h5>
+                            <p><strong>Description:</strong> Removes untracked files and directories from the working
+                                directory.</p>
+                            <p><strong>Example:</strong> <code>git clean -fd</code></p>
+                            <p><a href="https://git-scm.com/docs/git-clean">Git-scm.com doc</a></p>
+                        </div>
+                        <div class="wrapper"></br>
+                            <h5>3. <code>git log -p &lt;commit-hash&gt;</code></h5>
+                            <p><strong>Description:</strong> Displays a patch of changes made in a specific commit.</p>
+                            <p><strong>Example:</strong> <code>git log -p HEAD~1</code></p>
+                            <p><a href="https://git-scm.com/docs/git-log">Git-scm.com doc</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--CONTENT 1 END-->
+
+        </div>
+        <!--MAIN CONTENT END-->
+        <!--FOOTER-->
+        <div class="footer" id="footer">
+            <div id="footer-content">
+                <p id="footer-text"> Copyright &copy; 2024 <a href="#">Naser khoshfetrat</a> - All Rights
+                    Reserved.<br />
+                </p>
+            </div>
+        </div>
+        <!--FOOTER END-->
+    </div>
+    <!--CONTENT END-->
+    <!--CUFON-->
+    <script type="text/javascript" src="../js/cufon-yui.js"></script>
+    <script type="text/javascript" src="../js/Gentium_Basic.font.js"></script>
+    <script type="text/javascript" src="../js/Bambi_Bold_400.font.js"></script>
+    <script type="text/javascript">
+        Cufon.replace('h1', { fontFamily: 'Bambi Bold' });
+        Cufon.replace('h2', { fontFamily: 'Gentium Basic' });
+        Cufon.replace('h3', { fontFamily: 'Gentium Basic' });
+    </script>
+    <script type="text/javascript"> Cufon.now(); </script>
+    <!--CUFON END-->
+</body>
+
+</html>
